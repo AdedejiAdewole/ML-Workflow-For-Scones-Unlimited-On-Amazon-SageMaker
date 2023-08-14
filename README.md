@@ -27,7 +27,7 @@ Python 3.8 runtime for the AWS Lambda Functions
 + Follow the [jupyter install](https://jupyter.org/install.html) link for best practices to install and start a jupyter lab instance.
 If you have a python virtual environment already installed you can just pip install it.
 
-pip install jupyterlab
+```pip install jupyterlab```
 
 * There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
 
@@ -35,9 +35,9 @@ pip install jupyterlab
 With the aid of AWS Step Functions and Lambda functions, the project seeks to create a machine learning model for picture categorization by automating a variety of machine learning activities, including data preparation, model training, deployment, and inference.
 
 ### 3.1 Lambda Functions
-1. The serializeImageData lambda function will copy an object from S3, base64 encode it, and then returns it to the step function as a serialized JSON object in an event.
-2. The Image-Classification lambda function takes the image output from the previous function, decode it, and then pass inferences back to the the Step Function.
-3. The Filter-Low-Confidence-Inference lambda function takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.
+1. The serializeImageData lambda function ([zipped lambda.py script](lambda functions/serializeImageData.zip)) will copy an object from S3, base64 encode it, and then returns it to the step function as a serialized JSON object in an event.
+2. The Image-Classification lambda function ([zipped lambda.py script](lambda functions/lambda functions/image-classification.zip)) takes the image output from the previous function, decode it, and then pass inferences back to the the Step Function.
+3. The Filter-Low-Confidence-Inference lambda function ([zipped lambda.py script](lambda functions/filter-low-confidence.zip)) takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.
 
 ### 3.2 Building a State Machine via AWS Step Functions
 
