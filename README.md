@@ -59,7 +59,7 @@ With the aid of AWS Step Functions and Lambda functions, the project seeks to cr
 ![29FD3E53-6FAB-4E59-B378-59DF3F44B5CD_1_201_a](https://github.com/AdedejiAdewole/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/assets/50617984/b43c4892-1b31-4a99-8d21-4b976a76429b)
 
 ## LICENCE
-LICENSE
+[LICENSE](https://github.com/AdedejiAdewole/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/main/LICENSE)
 
 
 
