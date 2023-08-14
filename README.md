@@ -39,8 +39,8 @@ With the aid of AWS Step Functions and Lambda functions, the project seeks to cr
 ### 3.1 Lambda Functions
 1. The serializeImageData lambda function [zipped lambda.py script](lambda functions/serializeImageData.zip) will copy an object from S3, base64 encode it, and then returns it to the step function as a serialized JSON object in an event.
 2. The Image-Classification lambda function [zipped lambda.py script](/lambda functions/image-classification.zip) takes the image output from the previous function, decode it, and then pass inferences back to the the Step Function.
-3. The Filter-Low-Confidence-Inference lambda function [zipped lambda.py script](ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/lambda functions
-/filter-low-confidence.zip) takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.
+3. The Filter-Low-Confidence-Inference lambda function [zipped lambda.py script]([lambda functions
+/filter-low-confidence.zip](https://github.com/AdedejiAdewole/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/main/lambda%20functions/filter-low-confidence.zip)) takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.
 
 ### 3.2 Building a State Machine via AWS Step Functions
 
