@@ -1,7 +1,7 @@
-#ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker
+# ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker
 The main objective of this project is to build and deploy a Image Classification ML model for Scones Unlimited, a scone delivery logistics company using Amazon SageMaker.
 
-#Project
+# Project
 Build and Monitor a Machine Learning Workflow For Scones Unlimited On Amazon SageMaker.
 
 #1. Overview
