@@ -26,7 +26,7 @@ Python 3.8 runtime for the AWS Lambda Functions
 
 + Follow the [jupyter install](https://jupyter.org/install.html) link for best practices to install and start a jupyter lab instance.
 If you have a python virtual environment already installed you can just pip install it.
-[GitHub Pages](https://pages.github.com/).
+
 pip install jupyterlab
 
 * There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
