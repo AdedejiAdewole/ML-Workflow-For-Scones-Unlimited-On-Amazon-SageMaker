@@ -24,12 +24,12 @@ Python 3.8 runtime for the AWS Lambda Functions
 ### 2.3 Installation
 - For local development, you will need to setup a jupyter lab instance.
 
-+ Follow the [jupyter install](https://jupyter.org/install.html) link for best practices to install and start a jupyter lab instance.
++ Follow the [jupyter install] (https://jupyter.org/install.html) link for best practices to install and start a jupyter lab instance.
 If you have a python virtual environment already installed you can just pip install it.
 
 pip install jupyterlab
 
-* There are also docker containers containing jupyter lab from [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
+* There are also docker containers containing jupyter lab from [Jupyter Docker Stacks] (https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html).
 
 ## 3. Approach
 With the aid of AWS Step Functions and Lambda functions, the project seeks to create a machine learning model for picture categorization by automating a variety of machine learning activities, including data preparation, model training, deployment, and inference.
