@@ -45,8 +45,7 @@ With the aid of AWS Step Functions and Lambda functions, the project seeks to cr
 
 #### 3.2.1. Execution Flow of the Step Function
 
-![4B74F74D-785C-4DF7-82E0-D8AB953F1139_1_201_a](https://github.com/AdedejiAdewole/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/assets/50617984/2be3d93a-f588-49c5-9660-92ab795224f6)![14933091-3BFE-4DD0-8B3F-ADD98D233065_1_201_a](https://github.com/AdedejiAdewole/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/assets/50617984/bc10cb3c-c861-4aa1-85a7-7d760106d552)
-
+![4B74F74D-785C-4DF7-82E0-D8AB953F1139_1_201_a](https://github.com/AdedejiAdewole/ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/assets/50617984/2be3d93a-f588-49c5-9660-92ab795224f6)
 
 #### 3.2.2. Step Function Graph
 
